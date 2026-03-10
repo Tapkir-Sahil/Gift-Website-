@@ -1,0 +1,33 @@
+.navbar-nav {
+  gap: 32px;
+}
+
+.custom-navbar {
+  background-color: #b3a290; /* beige tone */
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding: 14px 0;
+  height:70px;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.nav-icons i {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.nav-icons i:hover {
+  opacity: 0.8;
+}

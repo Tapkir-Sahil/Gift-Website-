@@ -1,0 +1,43 @@
+.promo-section{
+  background:#f4f4f4;
+  padding:15px 0;
+}
+
+.promo-banner{
+  background-image:url("/images/4.png");
+  background-size:cover;
+  background-position:center;
+  height:420px;
+  border-radius:20px;
+  display:flex;
+  align-items:center;
+  padding-left:60px;
+}
+
+.promo-content h2{
+  color:white;
+  font-size:48px;
+  font-weight:600;
+  margin-bottom:20px;
+}
+
+.shop-btn{
+  background:white;
+  border:none;
+  padding:10px 22px;
+  border-radius:25px;
+  font-size:16px;
+}
+
+@media (max-width:1000px){
+
+.promo-banner{
+  height:320px;
+  padding-left:25px;
+}
+
+.promo-content h2{
+  font-size:32px;
+}
+
+}
