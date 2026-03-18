@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import CategorySection from "./components/CategorySection";
 import Recommended from "./components/Recommended";
 import PromoBanner from "./components/PromoBanner";
+import FanCarousel from "./components/FanCarousel";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <CategorySection/>
       <Recommended />
       <PromoBanner />
+      <FanCarousel />
     </>
   );
 }
